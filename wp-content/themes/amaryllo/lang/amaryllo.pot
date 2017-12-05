@@ -1,0 +1,524 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Amaryllo\n"
+"POT-Creation-Date: 2015-05-22 22:02+0200\n"
+"PO-Revision-Date: 2015-05-22 22:02+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "Not found"
+msgstr ""
+
+#: 404.php:12
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:14
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:16
+msgid "F Y"
+msgstr ""
+
+#: archive.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:18
+msgid "Y"
+msgstr ""
+
+#: archive.php:20
+msgid "Archives"
+msgstr ""
+
+#: category.php:12
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: comments.php:12
+msgid "Comments are currently closed."
+msgstr ""
+
+#: comments.php:14
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: content-posts.php:21 single.php:23
+msgid "Posted by"
+msgstr ""
+
+#: content-posts.php:24 footer.php:34 sidebar.php:31 single.php:26
+msgid "Categories"
+msgstr ""
+
+#: content-posts.php:37 lib/customizer.php:131
+msgid "Read More"
+msgstr ""
+
+#: content-posts.php:45
+msgid "Previous Posts"
+msgstr ""
+
+#: content-posts.php:46
+msgid "Next posts"
+msgstr ""
+
+#: footer.php:16 sidebar.php:13
+msgid "Recent Posts"
+msgstr ""
+
+#: footer.php:22 sidebar.php:25
+msgid "Tag Cloud"
+msgstr ""
+
+#: footer.php:28 sidebar.php:19
+msgid "Pages"
+msgstr ""
+
+#: front-page.php:13 index.php:11
+msgid "Blog"
+msgstr ""
+
+#: functions.php:65
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:66
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:164
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:166
+msgid "Sidebar on the blog layout."
+msgstr ""
+
+#: functions.php:176
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:178
+msgid "The footer widget area"
+msgstr ""
+
+#: functions.php:216
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: lib/customizer.php:16 lib/kirki/includes/Config.php:92
+msgid "Background Color"
+msgstr ""
+
+#: lib/customizer.php:17 lib/kirki/includes/Config.php:93
+msgid "Background Image"
+msgstr ""
+
+#: lib/customizer.php:18 lib/kirki/includes/Config.php:94
+msgid "No Repeat"
+msgstr ""
+
+#: lib/customizer.php:19 lib/kirki/includes/Config.php:95
+msgid "Repeat All"
+msgstr ""
+
+#: lib/customizer.php:20 lib/kirki/includes/Config.php:96
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: lib/customizer.php:21 lib/kirki/includes/Config.php:97
+msgid "Repeat Vertically"
+msgstr ""
+
+#: lib/customizer.php:22 lib/kirki/includes/Config.php:98
+msgid "Inherit"
+msgstr ""
+
+#: lib/customizer.php:23 lib/kirki/includes/Config.php:99
+msgid "Background Repeat"
+msgstr ""
+
+#: lib/customizer.php:24 lib/kirki/includes/Config.php:100
+msgid "Cover"
+msgstr ""
+
+#: lib/customizer.php:25 lib/kirki/includes/Config.php:101
+msgid "Contain"
+msgstr ""
+
+#: lib/customizer.php:26 lib/kirki/includes/Config.php:102
+msgid "Background Size"
+msgstr ""
+
+#: lib/customizer.php:27 lib/kirki/includes/Config.php:103
+msgid "Fixed"
+msgstr ""
+
+#: lib/customizer.php:28 lib/kirki/includes/Config.php:104
+msgid "Scroll"
+msgstr ""
+
+#: lib/customizer.php:29 lib/kirki/includes/Config.php:105
+msgid "Background Attachment"
+msgstr ""
+
+#: lib/customizer.php:30 lib/kirki/includes/Config.php:106
+msgid "Left Top"
+msgstr ""
+
+#: lib/customizer.php:31 lib/kirki/includes/Config.php:107
+msgid "Left Center"
+msgstr ""
+
+#: lib/customizer.php:32 lib/kirki/includes/Config.php:108
+msgid "Left Bottom"
+msgstr ""
+
+#: lib/customizer.php:33 lib/kirki/includes/Config.php:109
+msgid "Right Top"
+msgstr ""
+
+#: lib/customizer.php:34 lib/kirki/includes/Config.php:110
+msgid "Right Center"
+msgstr ""
+
+#: lib/customizer.php:35 lib/kirki/includes/Config.php:111
+msgid "Right Bottom"
+msgstr ""
+
+#: lib/customizer.php:36 lib/kirki/includes/Config.php:112
+msgid "Center Top"
+msgstr ""
+
+#: lib/customizer.php:37 lib/kirki/includes/Config.php:113
+msgid "Center Center"
+msgstr ""
+
+#: lib/customizer.php:38 lib/kirki/includes/Config.php:114
+msgid "Center Bottom"
+msgstr ""
+
+#: lib/customizer.php:39 lib/kirki/includes/Config.php:115
+msgid "Background Position"
+msgstr ""
+
+#: lib/customizer.php:40 lib/kirki/includes/Config.php:116
+msgid "Background Opacity"
+msgstr ""
+
+#: lib/customizer.php:41 lib/kirki/includes/Config.php:117
+msgid "ON"
+msgstr ""
+
+#: lib/customizer.php:42 lib/kirki/includes/Config.php:118
+msgid "OFF"
+msgstr ""
+
+#: lib/customizer.php:43 lib/kirki/includes/Config.php:119
+msgid "All"
+msgstr ""
+
+#: lib/customizer.php:44 lib/kirki/includes/Config.php:120
+msgid "Cyrillic"
+msgstr ""
+
+#: lib/customizer.php:45 lib/kirki/includes/Config.php:121
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: lib/customizer.php:46 lib/kirki/includes/Config.php:122
+msgid "Devanagari"
+msgstr ""
+
+#: lib/customizer.php:47 lib/kirki/includes/Config.php:123
+msgid "Greek"
+msgstr ""
+
+#: lib/customizer.php:48 lib/kirki/includes/Config.php:124
+msgid "Greek Extended"
+msgstr ""
+
+#: lib/customizer.php:49 lib/kirki/includes/Config.php:125
+msgid "Khmer"
+msgstr ""
+
+#: lib/customizer.php:50 lib/kirki/includes/Config.php:126
+msgid "Latin"
+msgstr ""
+
+#: lib/customizer.php:51 lib/kirki/includes/Config.php:127
+msgid "Latin Extended"
+msgstr ""
+
+#: lib/customizer.php:52 lib/kirki/includes/Config.php:128
+msgid "Vietnamese"
+msgstr ""
+
+#: lib/customizer.php:53 lib/kirki/includes/Config.php:129
+msgid "Serif"
+msgstr ""
+
+#: lib/customizer.php:54 lib/kirki/includes/Config.php:130
+msgid "Sans Serif"
+msgstr ""
+
+#: lib/customizer.php:55 lib/kirki/includes/Config.php:131
+msgid "Monospace"
+msgstr ""
+
+#: lib/customizer.php:100
+msgid "Slider"
+msgstr ""
+
+#: lib/customizer.php:100 lib/customizer.php:101
+msgid ""
+"Information here is demo, to display live on your website, please enter your "
+"information"
+msgstr ""
+
+#: lib/customizer.php:101
+msgid "Box Home Page"
+msgstr ""
+
+#: lib/customizer.php:105
+msgid "General Settings"
+msgstr ""
+
+#: lib/customizer.php:106
+msgid "About Amaryllo Theme"
+msgstr ""
+
+#: lib/customizer.php:109
+msgid "Slide Options"
+msgstr ""
+
+#: lib/customizer.php:110
+msgid "Slide 1"
+msgstr ""
+
+#: lib/customizer.php:111
+msgid "Slide 2"
+msgstr ""
+
+#: lib/customizer.php:115
+msgid "Home Box 1"
+msgstr ""
+
+#: lib/customizer.php:116
+msgid "Home Box 2"
+msgstr ""
+
+#: lib/customizer.php:117
+msgid "Home Box 3"
+msgstr ""
+
+#: lib/customizer.php:118
+msgid "Home Box 4"
+msgstr ""
+
+#: lib/customizer.php:119
+msgid "Home Box 5"
+msgstr ""
+
+#: lib/customizer.php:120
+msgid "Home Box 6"
+msgstr ""
+
+#: lib/customizer.php:127
+msgid "Welcome To Amaryllo Theme"
+msgstr ""
+
+#: lib/customizer.php:128
+msgid "Copyright &copy; 2015 "
+msgstr ""
+
+#: lib/customizer.php:129
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus laoreet "
+"dui lectus, non lacinia augue cursus Pellentesque molestie tincidunt "
+"scelerisque. Nunc rhoncus diam eget enim euismod, sed viverra mi venenatis."
+msgstr ""
+
+#: lib/customizer.php:130
+msgid ""
+"Select a icons in this list http://fortawesome.github.io/Font-Awesome/icons/ "
+"and enter the code"
+msgstr ""
+
+#: lib/customizer.php:135
+msgid "Upload logo"
+msgstr ""
+
+#: lib/customizer.php:136
+msgid "Text Logo 1"
+msgstr ""
+
+#: lib/customizer.php:136
+msgid "Add text color for logo"
+msgstr ""
+
+#: lib/customizer.php:136
+msgid "Amaryllo"
+msgstr ""
+
+#: lib/customizer.php:137
+msgid "Text Logo 2"
+msgstr ""
+
+#: lib/customizer.php:137
+msgid "Add text black for logo"
+msgstr ""
+
+#: lib/customizer.php:137
+msgid "Themes"
+msgstr ""
+
+#: lib/customizer.php:138
+msgid "Copyrights text"
+msgstr ""
+
+#: lib/customizer.php:138
+msgid "Text in footer left"
+msgstr ""
+
+#: lib/customizer.php:139
+msgid "Blog Header Image"
+msgstr ""
+
+#: lib/customizer.php:143
+msgid "Box Title 1"
+msgstr ""
+
+#: lib/customizer.php:144
+msgid "Box Image 1"
+msgstr ""
+
+#: lib/customizer.php:145
+msgid "Box Content 1"
+msgstr ""
+
+#: lib/customizer.php:147
+msgid "Box Title 2"
+msgstr ""
+
+#: lib/customizer.php:148
+msgid "Box Image 2"
+msgstr ""
+
+#: lib/customizer.php:149
+msgid "Box Content 2"
+msgstr ""
+
+#: lib/customizer.php:151
+msgid "Box Title 3"
+msgstr ""
+
+#: lib/customizer.php:152
+msgid "Box Image 3"
+msgstr ""
+
+#: lib/customizer.php:153
+msgid "Box Content 3"
+msgstr ""
+
+#: lib/customizer.php:155
+msgid "Box Title 4"
+msgstr ""
+
+#: lib/customizer.php:156
+msgid "Box Image 4"
+msgstr ""
+
+#: lib/customizer.php:157
+msgid "Box Content 4"
+msgstr ""
+
+#: lib/customizer.php:159
+msgid "Box Title 5"
+msgstr ""
+
+#: lib/customizer.php:160
+msgid "Box Image 5"
+msgstr ""
+
+#: lib/customizer.php:161
+msgid "Box Content 5"
+msgstr ""
+
+#: lib/customizer.php:163
+msgid "Box Title 6"
+msgstr ""
+
+#: lib/customizer.php:164
+msgid "Box Image 6"
+msgstr ""
+
+#: lib/customizer.php:165
+msgid "Box Content 6"
+msgstr ""
+
+#: lib/customizer.php:169
+msgid "Background Slider"
+msgstr ""
+
+#: lib/customizer.php:171 lib/customizer.php:177
+msgid "Title"
+msgstr ""
+
+#: lib/customizer.php:172 lib/customizer.php:178
+msgid "Content of slide"
+msgstr ""
+
+#: lib/customizer.php:173 lib/customizer.php:179
+msgid "Upload Image"
+msgstr ""
+
+#: lib/customizer.php:173 lib/customizer.php:179
+msgid "Upload image for slide"
+msgstr ""
+
+#: lib/customizer.php:174 lib/customizer.php:180
+msgid "Button Text"
+msgstr ""
+
+#: lib/customizer.php:175 lib/customizer.php:181
+msgid "Button Link"
+msgstr ""
+
+#: lib/customizer.php:184
+msgid "Amaryllo Promo"
+msgstr ""
+
+#: search.php:11
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: tag.php:12
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

@@ -1,0 +1,471 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+@media (max-width: 1200px) {
+  /* line 5, ../../scss/responsive.scss */
+  .container {
+    width: 100%;
+  }
+
+  /* line 8, ../../scss/responsive.scss */
+  .news-container {
+    width: auto;
+  }
+
+  /* line 11, ../../scss/responsive.scss */
+  .latests-block .column-container {
+    width: 100%;
+  }
+
+  /* line 14, ../../scss/responsive.scss */
+  .meta p.comments, .meta p.time, .meta a {
+    font-size: 12px;
+  }
+}
+@media (min-width: 998px) and (max-width: 1200px) {
+  /* line 19, ../../scss/responsive.scss */
+  .slider {
+    min-height: initial;
+    padding-bottom: 30px;
+  }
+  /* line 22, ../../scss/responsive.scss */
+  .slider .owl-theme .owl-controls {
+    bottom: -30px;
+  }
+
+  /* line 26, ../../scss/responsive.scss */
+  .meta p.comments:before {
+    margin-right: 3px;
+  }
+
+  /* line 29, ../../scss/responsive.scss */
+  .testimonials-slider .item {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 997px) {
+  /* line 35, ../../scss/responsive.scss */
+  header .logo-container .logo {
+    margin: 0 auto;
+    margin-top: 35px;
+    display: block;
+  }
+  /* line 40, ../../scss/responsive.scss */
+  header .column-7-12, header .column-3-12 {
+    width: 100%;
+  }
+  /* line 43, ../../scss/responsive.scss */
+  header .menu.header-menu-social {
+    display: none;
+  }
+
+  /* line 47, ../../scss/responsive.scss */
+  .news-block {
+    margin: 0 10px 20px 10px;
+    padding-top: 30px;
+  }
+  /* line 50, ../../scss/responsive.scss */
+  .news-block img {
+    width: 100%;
+  }
+  /* line 54, ../../scss/responsive.scss */
+  .news-block .meta p {
+    margin-bottom: 0;
+  }
+  /* line 57, ../../scss/responsive.scss */
+  .news-block .meta .column-4-12 {
+    width: 100%;
+  }
+  /* line 60, ../../scss/responsive.scss */
+  .news-block .meta .comments, .news-block .meta .read-more {
+    text-align: left;
+  }
+
+  /* line 65, ../../scss/responsive.scss */
+  .middle-opacity {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity)";
+    /* IE 5-7 */
+    filter: alpha(opacity=100);
+    /* Netscape */
+    -moz-opacity: 1;
+    /* Safari 1.x */
+    -khtml-opacity: 1;
+    /* Good browsers */
+    opacity: 1;
+  }
+}
+@media (min-width: 768px) and (max-width: 997px) {
+  /* line 70, ../../scss/responsive.scss */
+  .column-md-8-12 {
+    width: 66.66666666666667%;
+  }
+
+  /* line 73, ../../scss/responsive.scss */
+  .column-md-4-12 {
+    width: 33.33333333333333%;
+  }
+
+  /* line 76, ../../scss/responsive.scss */
+  .articles-container {
+    padding-right: 30px;
+  }
+
+  /* line 79, ../../scss/responsive.scss */
+  .comments .comment-author .avatar {
+    margin-bottom: 125px;
+  }
+
+  /* line 82, ../../scss/responsive.scss */
+  .slider-item .slide-text {
+    margin-top: 70px;
+  }
+
+  /* line 85, ../../scss/responsive.scss */
+  .slider-item .slide-text .button.orange {
+    margin: 0 auto;
+  }
+
+  /* line 88, ../../scss/responsive.scss */
+  .featured-block h3 {
+    font-size: 15px;
+  }
+  /* line 90, ../../scss/responsive.scss */
+  .featured-block h3:before {
+    margin-right: 7px;
+  }
+
+  /* line 94, ../../scss/responsive.scss */
+  .portfolio-item .icon-search {
+    margin-top: 20%;
+  }
+
+  /* line 98, ../../scss/responsive.scss */
+  .news-container {
+    padding-bottom: 20px;
+  }
+
+  /* line 101, ../../scss/responsive.scss */
+  .testimonials-slider .item {
+    text-align: center;
+  }
+
+  /* line 104, ../../scss/responsive.scss */
+  .about-us-menu {
+    padding-right: 20px;
+  }
+
+  /* line 107, ../../scss/responsive.scss */
+  .latests-tweets {
+    width: 27%;
+    padding-right: 10px;
+  }
+
+  /* line 111, ../../scss/responsive.scss */
+  .address-row {
+    margin-bottom: 20px;
+  }
+  /* line 113, ../../scss/responsive.scss */
+  .address-row span {
+    margin-bottom: 15px;
+  }
+
+  /* line 117, ../../scss/responsive.scss */
+  .article .article-text .meta {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 122, ../../scss/responsive.scss */
+  .column-container .column-1-12, .column-container .column-2-12, .column-container .column-1-5, .column-container .column-3-12, .column-container .column-4-12, .column-container .column-5-12, .column-container .column-6-12, .column-container .column-7-12, .column-container .column-8-12, .column-container .column-9-12, .column-container .column-10-12, .column-container .column-11-12, .column-container .column-12-12 {
+    width: 100%;
+  }
+
+  /* line 125, ../../scss/responsive.scss */
+  .comment-form-container input[type="text"] {
+    width: 100%;
+  }
+
+  /* line 128, ../../scss/responsive.scss */
+  .header-menu > li .sub-menu a, .header-menu > li .children a {
+    text-align: center;
+  }
+
+  /* line 132, ../../scss/responsive.scss */
+  .wp-options-inf .column-6-12 {
+    text-align: center;
+  }
+  /* line 135, ../../scss/responsive.scss */
+  .wp-options-inf ul {
+    margin-top: 10px;
+    float: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+  /* line 142, ../../scss/responsive.scss */
+  .header-menu-social {
+    display: none;
+  }
+
+  /* line 145, ../../scss/responsive.scss */
+  .header-menu > li {
+    display: block;
+  }
+  /* line 148, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu:hover .sub-menu {
+    display: none;
+  }
+  /* line 152, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu:before {
+    left: 50%;
+    top: 18px;
+    margin-left: 32px;
+  }
+  /* line 157, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu .sub-menu {
+    left: 0;
+    position: inherit;
+    width: 100%;
+    border-bottom: 1px solid #f07a07;
+  }
+  /* line 165, ../../scss/responsive.scss */
+  .header-menu > li a {
+    padding: 10px;
+  }
+
+  /* line 169, ../../scss/responsive.scss */
+  .icon-telephone-small, .icon-mail {
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+  }
+
+  /* line 174, ../../scss/responsive.scss */
+  .slider-item .slide-text .button.orange {
+    margin-bottom: 20px;
+  }
+
+  /* line 177, ../../scss/responsive.scss */
+  .slider {
+    padding-bottom: 40px;
+  }
+  /* line 178, ../../scss/responsive.scss */
+  .slider .slider-item .slide-text {
+    margin-top: 40px;
+  }
+
+  /* line 183, ../../scss/responsive.scss */
+  .slider .owl-theme .owl-controls {
+    bottom: -35px;
+  }
+
+  /* line 186, ../../scss/responsive.scss */
+  .featured-block {
+    padding: 47px 0px 15px 0;
+  }
+
+  /* line 189, ../../scss/responsive.scss */
+  .featured-block .column-4-12 .gutter, .featured-block .column-4-12:first-child .gutter {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* line 193, ../../scss/responsive.scss */
+  .latests-block .tags-container .tags-item {
+    margin: 2px;
+  }
+
+  /* line 196, ../../scss/responsive.scss */
+  .portfolio-item .icon-search {
+    margin-top: 20%;
+  }
+
+  /* line 199, ../../scss/responsive.scss */
+  .news-container {
+    padding-bottom: 0;
+  }
+
+  /* line 202, ../../scss/responsive.scss */
+  .testimonials-slider {
+    padding: 0px 29px;
+  }
+
+  /* line 205, ../../scss/responsive.scss */
+  .owl-theme .owl-controls .owl-prev {
+    left: 0;
+  }
+
+  /* line 208, ../../scss/responsive.scss */
+  .owl-theme .owl-controls .owl-next {
+    right: 0;
+  }
+
+  /* line 211, ../../scss/responsive.scss */
+  .contact-us-block .button {
+    margin-left: 0;
+  }
+
+  /* line 214, ../../scss/responsive.scss */
+  .sticky-footer .widget {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  /* line 219, ../../scss/responsive.scss */
+  .second-footer .text-right {
+    text-align: left;
+    margin-top: 5px;
+  }
+
+  /* line 224, ../../scss/responsive.scss */
+  .menu-top-mob-container {
+    position: relative;
+    padding-bottom: 20px;
+  }
+  /* line 227, ../../scss/responsive.scss */
+  .menu-top-mob-container .header-menu {
+    display: none;
+  }
+  /* line 230, ../../scss/responsive.scss */
+  .menu-top-mob-container .icon-menu {
+    z-index: 30;
+    position: absolute;
+    right: 0;
+    top: -29px;
+    display: block;
+    text-align: center;
+  }
+  /* line 237, ../../scss/responsive.scss */
+  .menu-top-mob-container .icon-menu:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #000;
+    font-size: 35px;
+    content: "\f0c9";
+  }
+
+  /* line 250, ../../scss/responsive.scss */
+  .header-menu > li > a {
+    text-align: left;
+  }
+
+  /* line 253, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu:hover .sub-menu {
+    display: block;
+  }
+
+  /* line 256, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu .sub-menu {
+    display: block;
+    border: none;
+    border-bottom: none;
+  }
+
+  /* line 261, ../../scss/responsive.scss */
+  .owl-theme .owl-controls .owl-prev {
+    margin-left: 0;
+    margin-top: 112px;
+  }
+
+  /* line 265, ../../scss/responsive.scss */
+  .owl-theme .owl-controls .owl-next {
+    margin-top: 112px;
+    margin-right: 0;
+  }
+
+  /* line 269, ../../scss/responsive.scss */
+  .menu-top-mob-container .header-menu {
+    border-top: 1px solid #f3f3f3;
+  }
+
+  /* line 272, ../../scss/responsive.scss */
+  .header-menu > li.has-sub-menu:before {
+    display: none;
+  }
+
+  /* line 275, ../../scss/responsive.scss */
+  .header-menu > li .sub-menu a, .header-menu > li .children a {
+    text-align: left;
+    padding-left: 25px;
+  }
+
+  /* line 279, ../../scss/responsive.scss */
+  .portfolio-item .img-container img {
+    width: 100%;
+  }
+
+  /* line 282, ../../scss/responsive.scss */
+  .wpcf7-form {
+    padding-bottom: 0;
+  }
+
+  /* line 285, ../../scss/responsive.scss */
+  .address-info-container {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+
+  /* line 289, ../../scss/responsive.scss */
+  .map-container {
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  /* line 293, ../../scss/responsive.scss */
+  .address-row span {
+    margin-bottom: 20px;
+  }
+
+  /* line 296, ../../scss/responsive.scss */
+  .articles-container {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  /* line 300, ../../scss/responsive.scss */
+  .article .article-text .meta {
+    width: 100%;
+  }
+
+  /* line 303, ../../scss/responsive.scss */
+  .meta p.comments, .meta p.time, .meta a.read-more {
+    text-align: left;
+  }
+
+  /* line 306, ../../scss/responsive.scss */
+  .aside-container {
+    margin-bottom: 20px;
+  }
+
+  /* line 309, ../../scss/responsive.scss */
+  .comments .comment-author .avatar {
+    margin-bottom: 130px;
+  }
+
+  /* line 312, ../../scss/responsive.scss */
+  .comments .comment.subcomment .comment-author .avatar {
+    margin-left: 0px;
+  }
+}
