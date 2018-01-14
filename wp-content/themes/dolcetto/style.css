@@ -581,7 +581,7 @@ header .menu-logo .menu-mobile .mobile-click {
     display: block;
     float: right;
     height: 22px;
-    background: url("../images/menu-icon.png") no-repeat;
+    background: url("/wp-content/uploads/2017/12/menu-icon.png") no-repeat;
 }
 header .menu-logo .menu-mobile .menu-top {
     background: #0079b0;
@@ -2697,7 +2697,7 @@ footer .copyright .right li a {
 .mainContainer .content-container .article p, .meta-top span, .meta-top span a,
 .mainContainer .content-full-width .article p{
     font-size: 13px;
-    color: #848484;
+    /*color: #848484;*/
 }
 
 .meta-top span a, .read-more, a.comments-link, .previous-next a{
