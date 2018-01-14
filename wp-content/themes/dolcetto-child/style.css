@@ -10,3 +10,168 @@
  Tags:         entertainment, one-column, two-columns, right-sidebar, grid-layout, footer-widgets, custom-menu, custom-background, editor-style, featured-images, full-width-template, theme-options, threaded-comments, translation-ready
  Text Domain:  dolcetto-child
 */
+
+#wpadminbar{ position: fixed; }
+
+.mainContainer .top-page{ height: 250px !important; }
+
+.mainContainer .top-page img{ height: 100%; }
+
+.slick-dots{
+	display: none !important;
+}
+
+.mainContainer .slider .owl-controls .owl-pagination {
+    display: none;
+}
+
+.contact-section {
+	overflow: hidden;
+	background-color: #353737;
+	text-align: center;
+	padding: 40px 0;
+	clear: both;
+}
+
+.contact-text-right{
+	font-family: 'OpenSans-Regular';
+	font-size: 23px;
+	line-height: 36px;
+	text-align: center;
+	display: inline-block;
+}
+
+.contact-span-color-1 { color: #979796; }
+.contact-span-color-2 { color: #ffffff; }
+
+.contact-button {
+	color: #ffffff;
+	text-align: center;
+	display: inline-block;
+	font-size: 15px;
+	margin-left: 30px;
+	width: 160px;
+	padding: 15px 20px;
+	font-family: 'OpenSans-Bold';
+	border: 2px solid #ffffff;
+ }
+
+ .contact-section a:hover{
+ 	background-color: #ffffff;
+ 	color: #077cb1;
+ }
+
+ .mainContainer .clients .owl-controls {
+    position: relative !important;
+}
+
+.wpls-logo-showcase .wpls-logo-cnt.slick-slide img {
+	display: block;
+	box-shadow: none !important;
+	width: 100%;
+}
+
+.mainContainer .portfolio h2 {
+	margin-top: 20px !important;
+}
+
+/*@media only screen and (max-width: 1336px){
+	.mainContainer .top-page{
+		height: 292px !important;
+	}
+}*/
+
+@media only screen and (max-width: 1024px){
+	.mainContainer .content .col-services .one-service{
+		width: 100% !important;
+		margin-top: 40px;
+	}
+
+	footer .copyright .wrapper .go-top{
+		top: 30px !important;
+	}
+
+	header .menu-logo .menu-mobile{
+		display: block !important;
+	}
+
+	header .menu-logo .menu-top-container{
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768){
+	.page-services .mainContainer .main-development p {
+	    padding-left: 0 !important;
+	    padding-right: 0 !important;
+	}
+
+	.mainContainer .top-page{
+		height: 219px !important;
+	}
+}
+
+@media only screen and (max-width: 480px){
+	.mainContainer .content .col-services .one-service{
+		width: 100% !important;
+		margin-top: 40px;
+	}
+
+	.mainContainer .content .wrapper > p{
+		width: 100% !important;
+	}
+
+	.mainContainer .portfolio .view-portfolio h3{
+		font-size: 18px !important;
+		letter-spacing: 0 !important;
+	}
+
+	.mainContainer .portfolio .view-portfolio a{
+		top: 12px !important;
+	}
+
+	.page-services .mainContainer .welcome-slider-block .wrapper{
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+
+	.mainContainer .top-page{
+		height: 136px !important;
+	}
+
+	.mainContainer .top-page h5.subtitle{
+		font-size: 36px !important;
+	}
+
+	.contact-text-right {
+		font-size: 20px !important;
+	}
+
+	.contact-button {
+		font-size: 14px !important;
+		margin-left: 5px !important;
+		width: 50% !important;
+		padding: 15px 0px !important;
+		margin-top: 12px !important;
+	}
+
+	.mainContainer .portfolio h2 {
+		font-size: 23px !important;
+		margin-top: 20px !important;
+	}
+
+	.mainContainer .portfolio .view-portfolio a {
+		display: block !important;
+		font-size: 11px !important;
+		margin-left: 25% !important;
+		width: 50% !important;
+	}
+
+	footer .footer .wrapper .widget {
+		width: 50% !important;
+	}
+
+	.wpls-logo-showcase .wpls-logo-cnt.slick-slide img {
+		border: none !important;
+	}
+}

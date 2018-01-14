@@ -6,78 +6,85 @@
 ?>
 <div class="mainContainer">
 	<div class="slider">
-		<?php echo do_shortcode('[metaslider id=26]'); ?>	
+		<?php echo do_shortcode('[smartslider3 slider=1]'); ?>	
 	</div>
 	<div class="content">
 		<div class="wrapper">
-			<h3><?php echo esc_html(get_theme_mod('wut')); ?></h3>
-			<hr>
-			<p><?php echo esc_html(get_theme_mod('wuc')); ?></p>
+			<h2>Dolcetto</h2>
+			<h3>creative studio</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit vulputate, vehicula nisi vitae, lobortis antes raesent sodales iaculis ultricies</p>
 			<div class="col-services">
-				<?php 
-				if( get_theme_mod('circles_box_page_1')) { 
-				$queryhomebox = new WP_query('page_id='.get_theme_mod('circles_box_page_1' ,true)); 
-				while( $queryhomebox->have_posts() ) : $queryhomebox->the_post();
-				?> 
 				<div class="one-service">
-					<a href="<?php the_permalink(); ?>"><i class="icon-<?php echo sanitize_html_class(get_theme_mod('circles_box_image_1')); ?>"></i></a>
-					<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
-					<p><?php the_excerpt(); ?></p>
-				</div>				
-				<?php endwhile; wp_reset_query(); ?>
-				<?php } ?>			
-				<?php 
-				if( get_theme_mod('circles_box_page_2')) { 
-				$queryhomebox = new WP_query('page_id='.get_theme_mod('circles_box_page_2' ,true)); 
-				while( $queryhomebox->have_posts() ) : $queryhomebox->the_post();
-				?> 
+					<a href="#"><i class="icon-graduation-cap"></i></a>
+					<a href="#"><h4>experience</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at purus vulputate, vehicula nisi vitae, lobortis ante.</p>
+				</div>
 				<div class="one-service">
-					<a href="<?php the_permalink(); ?>"><i class="icon-<?php echo sanitize_html_class(get_theme_mod('circles_box_image_2')); ?>"></i></a>
-					<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
-					<p><?php the_excerpt(); ?></p>
-				</div>				
-				<?php endwhile; wp_reset_query(); ?>
-				<?php } ?>
-				<?php 
-				if( get_theme_mod('circles_box_page_3')) { 
-				$queryhomebox = new WP_query('page_id='.get_theme_mod('circles_box_page_3' ,true)); 
-				while( $queryhomebox->have_posts() ) : $queryhomebox->the_post();
-				?> 
+					<a href="#"><i class="icon-codeopen"></i></a>
+					<a href="#"><h4>communication</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at purus vulputate, vehicula nisi vitae, lobortis ante.</p>
+				</div>
 				<div class="one-service">
-					<a href="<?php the_permalink(); ?>"><i class="icon-<?php echo sanitize_html_class(get_theme_mod('circles_box_image_3')); ?>"></i></a>
-					<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
-					<p><?php the_excerpt(); ?></p>
-				</div>				
-				<?php endwhile; wp_reset_query(); ?>
-				<?php } ?>		
-				<?php 
-				if( get_theme_mod('circles_box_page_4')) { 
-				$queryhomebox = new WP_query('page_id='.get_theme_mod('circles_box_page_4' ,true)); 
-				while( $queryhomebox->have_posts() ) : $queryhomebox->the_post();
-				?> 
+					<a href="#"><i class="icon-desktop"></i></a>
+					<a href="#"><h4>technologies</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at purus vulputate, vehicula nisi vitae, lobortis ante.</p>
+				</div>
 				<div class="one-service">
-					<a href="<?php the_permalink(); ?>"><i class="icon-<?php echo sanitize_html_class(get_theme_mod('circles_box_image_4')); ?>"></i></a>
-					<a href="<?php the_permalink(); ?>"><h4><?php the_title(); ?></h4></a>
-					<p><?php the_excerpt(); ?></p>
-				</div>				
-				<?php endwhile; wp_reset_query(); ?>
-				<?php } ?>				
+					<a href="#"><i class="icon-file-code"></i></a>
+					<a href="#"><h4>commitment</h4></a>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer at purus vulputate, vehicula nisi vitae, lobortis ante.</p>
+				</div>								
 			</div>
 		</div>
 	</div>
-	<?php if( get_theme_mod('home_message_textarea') or get_theme_mod('home_message_title')) { ?>
 	<div class="portfolio">
+		<h2>want to find diversified portfolio?</h2>
+		<p>Here is the place to find them!</p>
+		<hr>
+		<div class="blog-posts">
+			<div id="MixItUp2CC89D" class="blog-posts-wrapp">
+				<div class="wrapper">
+					<?php echo do_shortcode('[tlpportfolio layout="1" number="6"]'); ?>
+				</div>
+			</div>
+		</div>
 		<div class="view-portfolio">
 			<div class="wrapper-portfolio">
-				<?php if( get_theme_mod('home_message_textarea')) { ?><h3><?php echo esc_html(get_theme_mod('home_message_textarea')); ?></h3><?php } ?>
-				<?php if( get_theme_mod('home_message_title')) { ?><a href="<?php echo esc_url(get_theme_mod('home_message_link')); ?>"><?php echo esc_html(get_theme_mod('home_message_title')); ?></a><?php } ?>
+				<h3>Do You Like What You See? View All Of Our Work</h3>
+				<a href="/portfolio/">view portfolio</a>
 			</div>
 		</div>
 	</div>
-	<?php } ?>
+	<div class="team">
+		<h2>meet our cool team</h2>
+		<p>They alreade some cool guys!</p>
+		<hr>
+		<div class="block-team">
+			<div class="slider-team owl-theme">
+				<div class="owl-wrapper-outer">
+					<div class="owl-wrapper">
+						<?php  echo do_shortcode('[team-free id="61" ]'); ?>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clients">
+		<h2>Some of our clients</h2>
+		<p>We love every single one</p>
+		<hr>
+		<div class="wrapper">
+			<div class="slider-clients owl-theme">
+				<div class="owl-wrapper-outer">
+					<div class="owl-controls clickable">
+						<?php echo do_shortcode('[logoshowcase]'); ?>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<?php while (have_posts()) : the_post(); ?>
-<div class="mainContainer">
+<!-- <div class="mainContainer">
 	<div class="content">
 		<div class="wrapper">
 			<div class="content-container pagehomef">
@@ -93,5 +100,4 @@
 			</div>
 		</div>
 	</div>
-</div>
-<?php endwhile; ?>
+</div> -->
